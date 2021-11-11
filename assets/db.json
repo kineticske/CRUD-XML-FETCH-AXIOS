@@ -1,0 +1,47 @@
+{
+    "santos":[
+        {
+            "id":1,
+            "nombre": "seiya",
+            "Constelacion": "pegaso"
+        },
+        {
+            "id":2,
+            "nombre": "seiya2",
+            "Constelacion": "pegaso2"
+        },
+        {
+            "id":3,
+            "nombre": "seiya3",
+            "Constelacion": "pegaso3"
+        },
+        {
+            "id":4,
+            "nombre": "seiya4",
+            "Constelacion": "pegaso4"
+        }
+    ],
+    "otros":[
+        {
+            "id":1,
+            "nombre": "seiya",
+            "Constelacion": "pegaso"
+        },
+        {
+            "id":2,
+            "nombre": "seiya2",
+            "Constelacion": "pegaso2"
+        },
+        {
+            "id":3,
+            "nombre": "seiya3",
+            "Constelacion": "pegaso3"
+        },
+        {
+            "id":4,
+            "nombre": "seiya4",
+            "Constelacion": "pegaso4"
+        }
+    ]
+
+}
