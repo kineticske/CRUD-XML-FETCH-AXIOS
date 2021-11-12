@@ -51,6 +51,7 @@ const getAllSaints=()=>{
     })
 }
 
+
 // calling GET method
 d.addEventListener("DOMContentLoaded", getAllSaints);
 
@@ -121,3 +122,5 @@ d.addEventListener("click", (e)=>{
         }
     }
 });
+
+//finish With Object XML
