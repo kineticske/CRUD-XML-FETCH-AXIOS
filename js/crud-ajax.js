@@ -77,8 +77,8 @@ d.addEventListener("submit", (e)=>{
         })
     }else{ //PUT
         ajax({
-            url:`http://localhost:3000/santos/${e.target.id.value}`, //el que mande el submit
-            method: "POST",
+            url:`http://localhost:3000/santos/${e.target.id.value}`, //el que mande el submit 
+            method: "PUT",
             success: (res)=>{
                 location.reload();
             },
@@ -106,5 +106,18 @@ d.addEventListener("click", (e)=>{
     if(e.target.matches(".delete")){
         $title.textContent="Eliminar Santo";
         console.log('este otro tambien carnal !!!! oraleee!');
+        let isDelete=confirm(`¿Estas seguro de eliminar el ${e.target.dataset.id}`);
+        if (isDelete){
+            ajax({
+                url:`http://localhost:3000/santos/${e.target.dataset.id}`, //el que mande el submit 
+                method: "DELETE",
+                success: (res)=>{
+                    location.reload();
+                },
+                error: (err)=>{
+                    console.log(`se ha producido el error ${err}`);
+                }
+            })
+        }
     }
-})
+});
