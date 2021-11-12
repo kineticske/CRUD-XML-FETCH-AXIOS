@@ -1,47 +1,61 @@
 {
-    "santos":[
-        {
-            "id":1,
-            "nombre": "seiya",
-            "Constelacion": "pegaso"
-        },
-        {
-            "id":2,
-            "nombre": "seiya2",
-            "Constelacion": "pegaso2"
-        },
-        {
-            "id":3,
-            "nombre": "seiya3",
-            "Constelacion": "pegaso3"
-        },
-        {
-            "id":4,
-            "nombre": "seiya4",
-            "Constelacion": "pegaso4"
-        }
-    ],
-    "otros":[
-        {
-            "id":1,
-            "nombre": "seiya",
-            "Constelacion": "pegaso"
-        },
-        {
-            "id":2,
-            "nombre": "seiya2",
-            "Constelacion": "pegaso2"
-        },
-        {
-            "id":3,
-            "nombre": "seiya3",
-            "Constelacion": "pegaso3"
-        },
-        {
-            "id":4,
-            "nombre": "seiya4",
-            "Constelacion": "pegaso4"
-        }
-    ]
-
+  "santos": [
+    {
+      "id": 1,
+      "nombre": "seiya",
+      "Constelacion": "pegaso"
+    },
+    {
+      "id": 2,
+      "nombre": "seiya2",
+      "Constelacion": "pegaso2"
+    },
+    {
+      "id": 3,
+      "nombre": "seiya3",
+      "Constelacion": "pegaso3"
+    },
+    {
+      "id": 4,
+      "nombre": "seiya4",
+      "Constelacion": "pegaso4"
+    },
+    {
+      "nombre": "PegasoRonaldo",
+      "Constelacion": "Galactico",
+      "id": 5
+    },
+    {
+      "nombre": "Messi",
+      "Constelacion": "PechoFrioForever",
+      "id": 6
+    },
+    {
+      "nombre": "Neymar",
+      "Constelacion": "PuraCaida",
+      "id": 7
+    }
+  ],
+  "otros": [
+    {
+      "id": 1,
+      "nombre": "cr7",
+      "equipo": "MCU"
+    },
+    {
+      "id": 2,
+      "nombre": "messi",
+      "equipo": "PSG"
+    },
+    {
+      "id": 3,
+      "nombre": "benzema",
+      "equipo": "RM"
+    },
+    {
+      "id": 4,
+      "nombre": "xavi",
+      "equipo": "FCB"
+    }
+  ]
 }
